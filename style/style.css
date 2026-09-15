@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E172F;
+    padding: 0 95px;
+}
+
+nav img {
+    width: 115px;
+    padding: 0;
+}
+nav ul {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav a {
+    font-size: 100px; 
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav button {
+    background: linear-gradient(to right, #8a5cf6, #168eea);
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+    nav ul li {
+    white-space: nowrap;
+}
+
+
+
+
+.principal{
+    height: 600px;
+    display: flex;
+    background-image: url(../assets/imagenes/hojasFondo.jpg);
+  
+
+}
+.texto {
+    padding: 15%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background-color: #2E2550;
+    color: white;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    height: 245px;
+    
+}
+.principal p{
+
+    font-size: 20px;
+    color:white;
+}
+.boton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+button {
+    padding: 11px 26px;
+    width: auto;             
+    background-color: white;
+    color: #F41486;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.numero2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.principal img{
+    display: flex;
+    align-items: center;
+    padding:1px ;
+    width: 200px;
+
+}
+
+.telefono {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;     
+    justify-content: center;  
+}
+
+
+
+
+.principal2 {
+    background-color: #EFEFF7;
+    padding: 80px 95px;
+}
+
+.principal2 h2 {
+    color: #F41486;
+    font-size: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.computador img {
+    width: 450px;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto2 h3 {
+    color: #F41486;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.texto2 p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.texto2 h4 {
+    color: #F41486;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.lista2 li {
+    color: #333;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista2 i {
+    color: #F41486;
+    font-size: 16px;
+}
+
+
+
+.pricing {
+    background-color: #2E2550;
+    color: white;
+    text-align: center;
+    padding: 40px 50px;
+}
+.cambio{
+    background-color: #f5f5f5;
+    
+}
+
+
+.pricing h2 {
+    font-size: 60px;
+    
+}
+
+.pricing > p {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjeta {
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+    padding: 30px 25px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.precio {
+    font-size: 38px;
+}
+.cambio{
+font-size: 13px;
+color: #888;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:8px;
+}
+
+.tarjeta img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.tarjeta h4 {
+    color: #F41486;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.titulo {
+    color: #130438;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.titulo2{
+    color: #130438;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.tarjeta .precio {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2E2550;
+}
+
+.tarjeta ul {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tarjeta ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.tarjeta ul li i {
+    color: #f50b7c;
+}
+
+.tarjeta .descripcion { 
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.tarjeta button {
+    background:linear-gradient(to right, #ed81c0, #f50b7c);
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 160px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.boton1{
+    background-color: #2E2550;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 160px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer; 
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.boton2{
+    background-color: #2E2550;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 160px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer; 
+    text-align: center;
+    margin-top:20px;
+   
+}
+
+.footer {
+    background-color:#EFEFF7;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 95px;
+    border-top: 1px solid #4a3f75;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #F41486;
+}
+
+
+
+
+
+@media(min-width: 769px) and (max-width:920px){
+
+    .principal2 {
+        padding: 60px 40px;
+    }
+
+    .principal2 h2 {
+        font-size: 55px;
+    }
+
+    .fila {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .computador {
+        width: 50%;
+    }
+
+    .computador img {
+        width: 100%;
+    }
+
+    .texto2 {
+        width: 50%;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    
+    nav {
+        padding: 0 30px;
+    }
+
+    nav img {
+        width: 95px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    nav button {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+
+    
+    .principal {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .texto {
+        width: 55%;
+        padding: 40px 30px;
+    }
+
+    h1 {
+        font-size: 55px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .principal p {
+        font-size: 17px;
+    }
+
+    .telefono {
+        width: 45%;
+        padding: 70px;
+    }
+
+    .telefono img {
+        width: 140px;
+    }
+    
+     .boton {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .principal2 {
+        padding: 60px 40px;
+    }
+
+    .principal2 h2 {
+        font-size: 55px;
+    }
+
+    .fila {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .computador {
+        width: 50%;
+    }
+
+    .computador img {
+        width: 100%;
+    }
+
+    .texto2 {
+        width: 50%;
+    }
+
+    .texto2 h3 {
+        font-size: 24px;
+    }
+
+    .texto2 p {
+        font-size: 15px;
+    }
+
+    
+    .pricing {
+        padding: 40px 25px;
+    }
+
+    .pricing h2 {
+        font-size: 45px;
+    }
+
+    .tarjetas {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .tarjeta {
+        width: 220px;
+    }
+    .footer {
+        padding: 20px 30px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 352px) and (max-width: 480px) {
+
+    nav {
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .principal {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .texto {
+        width: 100%;
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .principal p {
+        font-size: 16px;
+    }
+
+    .boton {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .telefono {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .telefono img {
+        width: 160px;
+    }
+
+
+    .principal2 {
+        padding: 50px 25px;
+    }
+
+    .principal2 h2 {
+        font-size: 45px;
+    }
+
+    .fila {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .computador img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .texto2 {
+        text-align: center;
+    }
+
+    .lista2 {
+        text-align: left;
+    }
+
+
+    .pricing {
+        padding: 40px 20px;
+    }
+
+    .pricing h2 {
+        font-size: 45px;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+    .footer {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
